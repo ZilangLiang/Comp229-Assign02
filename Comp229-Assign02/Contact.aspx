@@ -10,7 +10,7 @@
             </td>
             <td>
                 
-            </td>
+                [lblName]</td>
         </tr>
         <tr>
             <td style="text-align:center">
@@ -18,7 +18,7 @@
             </td>
             <td>
 
-            </td>
+                [lblDoyou]</td>
         </tr>
         <tr>
             <td style="text-align:center">
@@ -26,7 +26,7 @@
             </td>
             <td>
 
-            </td>
+                [lblTextBox]</td>
         </tr>
     </Table>
 

@@ -13,5 +13,10 @@ namespace Comp229_Assign02
         {
 
         }
+
+        protected void SubmitButton_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("Contact.aspx");
+        }
     }
 }
