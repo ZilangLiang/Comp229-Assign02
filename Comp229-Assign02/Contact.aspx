@@ -1,17 +1,34 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Comp229_Assign02.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: Title %>.</h2>
-    <h3>Your contact page.</h3>
-    <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
-    </address>
+    <h2>Here is your Infomation</h2>
+    <div>
+    <Table ID="Table1" runat="server" style="width:100%">
+        <tr>
+            <td style="text-align:center">
+                Select your age group
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:center">
+                Do you drink Pepsi?
+            </td>
+            <td>
 
-    <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-    </address>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:center">
+                If you are a parent, do your children drink Pepsi Cola? Why or why not?
+            </td>
+            <td>
+
+            </td>
+        </tr>
+    </Table>
+
+    </div>
 </asp:Content>
