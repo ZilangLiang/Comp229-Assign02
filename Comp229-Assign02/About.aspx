@@ -29,8 +29,8 @@
                 <td style="text-align:center">Do you drink Pepsi?</td>
                 <td>
                     <asp:RadioButtonList ID="YesorNo" runat="server" RepeatLayout="Flow">
-                        <asp:ListItem>Yes</asp:ListItem>
-                        <asp:ListItem>No</asp:ListItem>
+                        <asp:ListItem Value="Yes">Yes</asp:ListItem>
+                        <asp:ListItem Value="No">No</asp:ListItem>
                     </asp:RadioButtonList>
                 </td>
                 <td>

@@ -11,8 +11,9 @@ namespace Comp229_Assign02
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Page lastpage = (Page)Context.Handler;
-            lblName.Text = ((TextBox)lastpage.FindControl("SelectAgeGroup")).Text
+            lblagegroup.Text = Session["value"].ToString();
+            lblyesorno.Text = Session["value1"].ToString();
+            lbltextbox.Text = Session["value2"].ToString();
         }
     }
 }
