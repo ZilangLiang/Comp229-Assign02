@@ -10,7 +10,7 @@
         <div class="col-md-4">
             <h2>Getting started</h2>
             <p>
-                <a class="btn btn-default" href="About.aspx">Click to start a survey! &raquo;</a>
+                <a class="btn btn-default" href="About.aspx">Click to start a survey!! &raquo;</a>
             </p>
         </div>
     </div>
